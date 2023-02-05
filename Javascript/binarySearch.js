@@ -6,7 +6,7 @@ function binario(number, n) {
     for (let i = 1; i < Math.floor(number.length / 2); i++) {
         mid = Math.floor((max+min)/2)
         if (number[mid] == n) {
-            console.log(`The program ran ${i} and the item ${n} is at ${mid}`);
+            console.log(`The program ran ${i} times and the item "${n}" is at the index ${mid}`);
             break;
         } else if (n < number[mid]) {
             max = mid;
