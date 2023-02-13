@@ -10,13 +10,10 @@ function binario(number, n) {
             break;
         } else if (n < number[mid]) {
             max = mid;
-            mid = Math.floor((min + max) / 2);
-            
         } else if (n > number[mid]) {
             min = mid;
-            mid = Math.floor((min + max) / 2);
         };
     };
 };
 
-binario([1,2,3,4,5,6,7,8,9,10], 5);
+binario([1,2,3,4,5,6,7,8,9,10], 1);
