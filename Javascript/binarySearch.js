@@ -9,9 +9,9 @@ function binario(number, n) {
             console.log(`The program ran ${i} times and the item "${n}" is at the index ${mid}`);
             break;
         } else if (n < number[mid]) {
-            max = mid;
+            max = mid-1;
         } else if (n > number[mid]) {
-            min = mid;
+            min = mid+1;
         };
     };
 };
