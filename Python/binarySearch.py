@@ -16,6 +16,6 @@ def binarySearch(arr, num):
             min = mid+1
         i=i+1
 
-    return "Coudn't found the given number in the array..."
+    return "Coudn't find the given number in the array..."
 
 print(binarySearch([1,2,3,4,5,6,7,8,9,10], 1))
