@@ -12,7 +12,6 @@ class Hello:
     def stats(self):
         print(f"The guys age is {self.age} and hair color is {self.hairColor}")
         
-objectSpeaker = Hello()
-
-objectSpeaker.sayHello()
-objectSpeaker.stats()
+Hello = Hello()
+Hello.sayHello()
+Hello.stats()
