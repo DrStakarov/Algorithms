@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
-def sayhello(name)
-    puts "hello #{name.to_s}"
+def sayhello(name, number)
+    puts "Hello #{name.to_s} #{number.to_s}!"
 end
 
 name = ARGV[0]
-sayhello(name)
+10.times { |num| sayhello(name, num) }
